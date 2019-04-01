@@ -23,5 +23,8 @@ public class DmytroMartynov {
     public void createBurger(int size){
         System.out.println("Wanted size of burger: ?" + size);
     }
+    public void eatBurger(){
+       massOfBurger = 0;
+    }
 
 }
