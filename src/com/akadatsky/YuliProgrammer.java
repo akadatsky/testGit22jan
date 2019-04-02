@@ -26,4 +26,11 @@ public class YuliProgrammer {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "YuliProgrammer{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
